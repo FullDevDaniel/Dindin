@@ -470,3 +470,527 @@ body {
 .four a:first-child {
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 1281px) {
+    #one{
+        margin-right: 100px;
+    }
+
+    #two{
+        margin-right: 100px;
+    }
+
+    #block-four a{
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .hero-header {
+        max-width: cover;
+    }
+
+    .hero-header img {
+        max-width: 200px;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .hero-header nav a{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+
+    .hero-header nav {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    #block-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+    }
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        max-width: 300px;
+        margin-bottom: 100px;
+    }
+
+    #block-one div img{
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+
+
+    #block-two div p{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 30px;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 350px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1600px;
+        padding-left: 60px;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+    }
+
+    #block-four a{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .hero-footer{
+        width: cover;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-footer img{
+        max-width: 200px;
+        height: 60px;
+    }
+
+    .four{
+        display: none;
+    }
+
+    .three{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+    .hero-header {
+        max-width: cover;
+    }
+
+    .hero-header img {
+        max-width: 200px;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .hero-header nav a{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+
+    .hero-header nav {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    #block-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+    }
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        max-width: 300px;
+        margin-bottom: 100px;
+    }
+
+    #block-one div img{
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+
+
+    #block-two div p{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 30px;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 250px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1600px;
+        padding-left: 30px;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+    }
+
+    #block-four a{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .hero-footer{
+        width: cover;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-footer img{
+        max-width: 200px;
+        height: 60px;
+    }
+
+    .four{
+        display: none;
+    }
+
+    .three{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .hero-header {
+        max-width: cover;
+    }
+
+    .hero-header img {
+        max-width: 200px;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .hero-header nav a{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .hero-header nav {
+        margin-right: 30px;
+    }
+
+    #block-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+    }
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        max-width: 300px;
+        margin-bottom: 100px;
+    }
+
+    #block-one div img{
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+
+
+    #block-two div p{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 30px;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 250px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1600px;
+        padding-left: 30px;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+    }
+
+    #block-four a{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .hero-footer{
+        width: cover;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-footer img{
+        max-width: 200px;
+        height: 60px;
+    }
+
+    .four{
+        display: none;
+    }
+
+    .three{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+}
