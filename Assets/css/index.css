@@ -471,6 +471,7 @@ body {
     margin-top: 10px;
 }
 
+
 @media only screen and (max-width: 1281px) {
     #one{
         margin-right: 100px;
@@ -483,6 +484,371 @@ body {
     #block-four a{
         margin-left: 350px;
     }
+}
+
+@media only screen and (max-width: 1025px) {
+    #block-three h2{
+        margin-left: 40px;
+    }
+
+    #one{
+        margin-right: 0px;
+    }
+
+    #two{
+        margin-right: 0px;
+    }
+
+    .sub-block-one{
+        margin-left: 40px;
+    }
+
+    #block-four{
+        padding-left: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 913px) {
+    #block-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+        padding-bottom: 80px;
+    }
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+    #block-one div a{
+        max-width: 900px;
+        margin-bottom: 80px;
+    }
+
+    #block-one div img{
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+    #block-two div .second{
+        margin-bottom: 40px;
+    }
+
+    #block-two div .third{
+        margin-bottom: 50px;
+    }
+
+    #block-two div img{
+        width: 400px;
+        height: 372px;
+    }
+
+
+
+    #block-two div p{
+        max-width: 700px;
+        margin-left: 0px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 150px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 350px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1500px;
+        padding-left: 130px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-four h2{
+        text-align: center;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+    }
+
+    #block-four a{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 821px) {
+    .hero-header {
+        max-width: cover;
+    }
+
+    .hero-header img {
+        max-width: 200px;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .hero-header nav a{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+
+    .hero-header nav {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    #block-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+        padding-bottom: 80px;
+    }
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+    #block-one div a{
+        max-width: 900px;
+        margin-bottom: 80px;
+    }
+
+    #block-one div img{
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+    #block-two div .second{
+        margin-bottom: 40px;
+    }
+
+    #block-two div .third{
+        margin-bottom: 50px;
+    }
+
+    #block-two div img{
+        width: 400px;
+        height: 372px;
+    }
+
+
+
+    #block-two div p{
+        max-width: 700px;
+        margin-left: 0px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 150px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 350px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1500px;
+        padding-left: 130px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-four h2{
+        text-align: center;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+    }
+
+    #block-four a{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+    
 }
 
 @media only screen and (max-width: 541px) {
@@ -781,10 +1147,9 @@ body {
         margin-right: 0px;
         
     }
-
     #block-four{
         height: 1600px;
-        padding-left: 30px;
+        padding-left: 150px;
     }
 
     #block-four div {
@@ -801,7 +1166,7 @@ body {
     }
 
     #block-four a{
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: 20px;
     }
 
@@ -883,7 +1248,10 @@ body {
         margin-left: 0px;
     }
 
-
+    #block-two div img{
+        width: 290px;
+        height: 270px;
+    }
 
     #block-two div p{
         max-width: 300px;
@@ -951,7 +1319,7 @@ body {
 
     #block-four{
         height: 1600px;
-        padding-left: 30px;
+        padding-left: 150px;
     }
 
     #block-four div {
@@ -970,6 +1338,206 @@ body {
     #block-four a{
         margin-left: 0px;
         margin-top: 20px;
+    }
+
+    .hero-footer{
+        width: cover;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-footer img{
+        max-width: 200px;
+        height: 60px;
+    }
+
+    .four{
+        display: none;
+    }
+
+    .three{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    .hero-header {
+        max-width: cover;
+        padding-right: 20px;
+    }
+
+    .hero-header img {
+        max-width: 170px;
+        height: 45px;
+        margin-left: 10px;
+    }
+
+    .hero-header nav a{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .hero-header nav {
+        margin-right: 0px;
+    }
+
+    #block-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        max-width: cover;
+    }
+
+    
+
+
+    #block-one div h1,
+    #block-one div p,
+    #block-one div a{
+        max-width: 200px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    #block-one div h1{
+        text-align: center;
+        font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    }
+
+    #block-one div a{
+        font-size: 20px;
+    }
+
+    #block-one div img{
+        max-width: 250px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #block-two{
+        display: flex;
+        flex-direction: column;
+        height: 1900px;
+        max-width: cover;
+    }
+
+    #block-two div{
+        margin-left: 0px;
+    }
+
+    #block-two div img{
+        width: 270px;
+        height: 270px;
+    }
+
+    #block-two div p{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    #block-two div .second{
+        width: 270px;
+    }
+
+    #block-three{
+        max-width: cover;
+    }
+
+    #block-three h2{
+        margin-left: 5px;
+    }
+
+    .sub-block-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .sub-block-two{
+        max-width: 300px;
+    }
+
+    .sub-block-one{
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    .sub-block-three{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sub-block-three img{
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .sub-block-four{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -0px;
+    }
+
+    .sub-block-four p{
+        max-width: 250px;
+        margin-left: 0px;
+        margin-bottom: 80px;
+    }
+
+    #one{
+        margin-right: 0px;
+        
+    }
+
+    #two{
+        margin-right: 0px;
+        
+    }
+
+    #block-four{
+        height: 1600px;
+        padding-left: 140px;
+    }
+
+    #block-four div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #block-four div div h3{
+        margin: 20px 0px;
+    }
+
+    #block-four div div p{
+        margin-bottom: 20px;
+        max-width: 260px;
+    }
+
+    #block-four div div div{
+        width: 260px;
+    height: 120px;
+    }
+
+    #block-four a{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 230px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .hero-footer{
