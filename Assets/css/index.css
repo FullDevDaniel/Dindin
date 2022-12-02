@@ -471,46 +471,126 @@ body {
     margin-top: 10px;
 }
 
+#block-five {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 626px;
+    width: cover;
+}
+
+#five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 496px;
+    height: 420px;
+}
+
+#five #six {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-bottom: 45px;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+.seven {
+    margin: 15px 0;
+    width: 493px;
+}
+
+.seven input {
+    width: 493px;
+    height: 32px;
+    padding: 5px 10px;
+    margin-left: 0px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.seven #nine {
+    height: 193px;
+    width: 500px;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.seven button{
+    background: #FF4081;
+border-radius: 50px;
+padding: 5px 7px;
+border: none;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+width: 108px;
+height: 32px;
+}
+
+
+
 
 @media only screen and (max-width: 1281px) {
-    #one{
+    #one {
         margin-right: 100px;
     }
 
-    #two{
+    #two {
         margin-right: 100px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 350px;
     }
 }
 
 @media only screen and (max-width: 1025px) {
-    #block-three h2{
+    #block-three h2 {
         margin-left: 40px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
     }
 
-    #two{
+    #two {
         margin-right: 0px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         margin-left: 40px;
     }
 
-    #block-four{
+    #block-four {
         padding-left: 40px;
     }
 
 }
 
 @media only screen and (max-width: 913px) {
-    #block-one{
+    #block-one {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -521,17 +601,17 @@ body {
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         width: 400px;
         margin-bottom: 50px;
     }
 
-    #block-one div a{
+    #block-one div a {
         max-width: 900px;
         margin-bottom: 80px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -539,7 +619,7 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
@@ -548,35 +628,35 @@ body {
         padding-top: 80px;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
-    #block-two div .second{
+    #block-two div .second {
         margin-bottom: 40px;
     }
 
-    #block-two div .third{
+    #block-two div .third {
         margin-bottom: 50px;
     }
 
-    #block-two div img{
+    #block-two div img {
         width: 400px;
         height: 372px;
     }
 
 
 
-    #block-two div p{
+    #block-two div p {
         max-width: 700px;
         margin-left: 0px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 0px;
         text-align: center;
     }
@@ -587,28 +667,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 150px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 200px;
         margin-right: 20px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -616,23 +696,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 350px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
 
-    #block-four{
+    #block-four {
         height: 1500px;
         padding-left: 130px;
         padding-bottom: 20px;
@@ -642,7 +722,7 @@ body {
         align-items: center;
     }
 
-    #block-four h2{
+    #block-four h2 {
         text-align: center;
     }
 
@@ -653,18 +733,46 @@ body {
         align-items: center;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 0px;
         margin-top: 100px;
     }
+
+    #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+        max-width: 444px;
+        height: 444px;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .seven input{
+        max-width: 330px;
+    }
+
+    .seven #nine{
+        max-width: 340px;
+    }
+
+    .seven button{
+        margin-top: 20px;
+    }
+
 
 }
 
@@ -679,7 +787,7 @@ body {
         margin-left: 10px;
     }
 
-    .hero-header nav a{
+    .hero-header nav a {
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -692,7 +800,7 @@ body {
         margin-right: 30px;
     }
 
-    #block-one{
+    #block-one {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -703,17 +811,17 @@ body {
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         width: 400px;
         margin-bottom: 50px;
     }
 
-    #block-one div a{
+    #block-one div a {
         max-width: 900px;
         margin-bottom: 80px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -721,7 +829,7 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
@@ -730,35 +838,35 @@ body {
         padding-top: 80px;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
-    #block-two div .second{
+    #block-two div .second {
         margin-bottom: 40px;
     }
 
-    #block-two div .third{
+    #block-two div .third {
         margin-bottom: 50px;
     }
 
-    #block-two div img{
+    #block-two div img {
         width: 400px;
         height: 372px;
     }
 
 
 
-    #block-two div p{
+    #block-two div p {
         max-width: 700px;
         margin-left: 0px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 0px;
         text-align: center;
     }
@@ -769,28 +877,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 150px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 200px;
         margin-right: 20px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -798,23 +906,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 350px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
 
-    #block-four{
+    #block-four {
         height: 1500px;
         padding-left: 130px;
         padding-bottom: 20px;
@@ -824,7 +932,7 @@ body {
         align-items: center;
     }
 
-    #block-four h2{
+    #block-four h2 {
         text-align: center;
     }
 
@@ -835,20 +943,47 @@ body {
         align-items: center;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 0px;
         margin-top: 100px;
     }
 
-    
+    #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+        max-width: 380px;
+        height: 380px;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .seven input{
+        max-width: 330px;
+    }
+
+    .seven #nine{
+        max-width: 340px;
+    }
+
+    .seven button{
+        margin-top: 20px;
+    }
+
+
 }
 
 @media only screen and (max-width: 541px) {
@@ -862,7 +997,7 @@ body {
         margin-left: 10px;
     }
 
-    .hero-header nav a{
+    .hero-header nav a {
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -875,7 +1010,7 @@ body {
         margin-right: 30px;
     }
 
-    #block-one{
+    #block-one {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -886,12 +1021,12 @@ body {
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         max-width: 300px;
         margin-bottom: 100px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -899,29 +1034,29 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
         max-width: cover;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
 
 
-    #block-two div p{
+    #block-two div p {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 30px;
     }
 
@@ -931,28 +1066,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 200px;
         margin-right: 20px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -960,23 +1095,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 350px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
 
-    #block-four{
+    #block-four {
         height: 1600px;
         padding-left: 60px;
     }
@@ -986,39 +1121,65 @@ body {
         flex-direction: column;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 50px;
         margin-top: 100px;
     }
 
-    .hero-footer{
+    .hero-footer {
         width: cover;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .hero-footer img{
+    .hero-footer img {
         max-width: 200px;
         height: 60px;
     }
 
-    .four{
+    .four {
         display: none;
     }
 
-    .three{
+    .three {
         margin-top: 20px;
         display: flex;
         flex-direction: row;
         display: none;
+    }
+
+    #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+       display: none;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .seven input{
+        max-width: 330px;
+    }
+
+    .seven #nine{
+        max-width: 340px;
+    }
+
+    .seven button{
+        margin-top: 20px;
     }
 }
 
@@ -1034,7 +1195,7 @@ body {
         margin-left: 10px;
     }
 
-    .hero-header nav a{
+    .hero-header nav a {
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -1047,7 +1208,7 @@ body {
         margin-right: 30px;
     }
 
-    #block-one{
+    #block-one {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1058,12 +1219,12 @@ body {
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         max-width: 300px;
         margin-bottom: 100px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -1071,29 +1232,29 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
         max-width: cover;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
 
 
-    #block-two div p{
+    #block-two div p {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 30px;
     }
 
@@ -1103,28 +1264,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 0px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1132,22 +1293,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 250px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
-    #block-four{
+
+    #block-four {
         height: 1600px;
         padding-left: 150px;
     }
@@ -1157,39 +1319,65 @@ body {
         flex-direction: column;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 0px;
         margin-top: 20px;
     }
 
-    .hero-footer{
+    .hero-footer {
         width: cover;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .hero-footer img{
+    .hero-footer img {
         max-width: 200px;
         height: 60px;
     }
 
-    .four{
+    .four {
         display: none;
     }
 
-    .three{
+    .three {
         margin-top: 20px;
         display: flex;
         flex-direction: row;
         display: none;
+    }
+
+     #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+       display: none;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .seven input{
+        max-width: 330px;
+    }
+
+    .seven #nine{
+        max-width: 340px;
+    }
+
+    .seven button{
+        margin-top: 20px;
     }
 }
 
@@ -1204,7 +1392,7 @@ body {
         margin-left: 10px;
     }
 
-    .hero-header nav a{
+    .hero-header nav a {
         display: inline-block;
         margin-bottom: 15px;
     }
@@ -1213,7 +1401,7 @@ body {
         margin-right: 30px;
     }
 
-    #block-one{
+    #block-one {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1224,12 +1412,12 @@ body {
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         max-width: 300px;
         margin-bottom: 100px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -1237,32 +1425,32 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
         max-width: cover;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
-    #block-two div img{
+    #block-two div img {
         width: 290px;
         height: 270px;
     }
 
-    #block-two div p{
+    #block-two div p {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 30px;
     }
 
@@ -1272,28 +1460,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 0px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1301,23 +1489,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 250px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
 
-    #block-four{
+    #block-four {
         height: 1600px;
         padding-left: 150px;
     }
@@ -1327,40 +1515,75 @@ body {
         flex-direction: column;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 0px;
         margin-top: 20px;
     }
 
-    .hero-footer{
+    .hero-footer {
         width: cover;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .hero-footer img{
+    .hero-footer img {
         max-width: 200px;
         height: 60px;
     }
 
-    .four{
+    .four {
         display: none;
     }
 
-    .three{
+    .three {
         margin-top: 20px;
         display: flex;
         flex-direction: row;
         display: none;
     }
+
+    #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+       display: none;
+    }
+
+    #five div{
+        max-width: 355px;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 322px;
+    }
+
+    .seven input{
+        max-width: 300px;
+    }
+
+    .seven #nine{
+        max-width: 310px;
+    }
+
+    .seven button{
+        margin-top: 20px;
+    }
+
+    #six{
+        max-width: 340px;
+    }
+
 }
 
 @media only screen and (max-width: 281px) {
@@ -1375,16 +1598,17 @@ body {
         margin-left: 10px;
     }
 
-    .hero-header nav a{
+    .hero-header nav a {
         display: inline-block;
         margin-bottom: 15px;
+        font-size: 13px;
     }
 
     .hero-header nav {
         margin-right: 0px;
     }
 
-    #block-one{
+    #block-one {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1393,30 +1617,30 @@ body {
         max-width: cover;
     }
 
-    
+
 
 
     #block-one div h1,
     #block-one div p,
-    #block-one div a{
+    #block-one div a {
         max-width: 200px;
         margin-bottom: 100px;
         text-align: center;
     }
 
-    #block-one div h1{
+    #block-one div h1 {
         text-align: center;
         font-weight: 700;
-    font-size: 45px;
-    line-height: 50px;
-    margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
     }
 
-    #block-one div a{
+    #block-one div a {
         font-size: 20px;
     }
 
-    #block-one div img{
+    #block-one div img {
         max-width: 250px;
         height: 300px;
         margin: 0 auto;
@@ -1424,36 +1648,36 @@ body {
         margin-bottom: 50px;
     }
 
-    #block-two{
+    #block-two {
         display: flex;
         flex-direction: column;
         height: 1900px;
         max-width: cover;
     }
 
-    #block-two div{
+    #block-two div {
         margin-left: 0px;
     }
 
-    #block-two div img{
+    #block-two div img {
         width: 270px;
         height: 270px;
     }
 
-    #block-two div p{
+    #block-two div p {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    #block-two div .second{
+    #block-two div .second {
         width: 270px;
     }
 
-    #block-three{
+    #block-three {
         max-width: cover;
     }
 
-    #block-three h2{
+    #block-three h2 {
         margin-left: 5px;
     }
 
@@ -1463,28 +1687,28 @@ body {
         max-width: 300px;
     }
 
-    .sub-block-two{
+    .sub-block-two {
         max-width: 300px;
     }
 
-    .sub-block-one{
+    .sub-block-one {
         max-width: 300px;
         margin-left: 0px;
     }
 
-    .sub-block-three{
+    .sub-block-three {
         max-width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .sub-block-three img{
+    .sub-block-three img {
         margin-bottom: 20px;
         margin-left: 0px;
     }
 
-    .sub-block-four{
+    .sub-block-four {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1492,23 +1716,23 @@ body {
         margin-left: -0px;
     }
 
-    .sub-block-four p{
+    .sub-block-four p {
         max-width: 250px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
 
-    #one{
+    #one {
         margin-right: 0px;
-        
+
     }
 
-    #two{
+    #two {
         margin-right: 0px;
-        
+
     }
 
-    #block-four{
+    #block-four {
         height: 1600px;
         padding-left: 140px;
     }
@@ -1518,21 +1742,21 @@ body {
         flex-direction: column;
     }
 
-    #block-four div div h3{
+    #block-four div div h3 {
         margin: 20px 0px;
     }
 
-    #block-four div div p{
+    #block-four div div p {
         margin-bottom: 20px;
         max-width: 260px;
     }
 
-    #block-four div div div{
+    #block-four div div div {
         width: 260px;
-    height: 120px;
+        height: 120px;
     }
 
-    #block-four a{
+    #block-four a {
         margin-left: 0px;
         margin-top: 20px;
         width: 230px;
@@ -1540,25 +1764,59 @@ body {
         padding-right: 20px;
     }
 
-    .hero-footer{
+    .hero-footer {
         width: cover;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .hero-footer img{
+    .hero-footer img {
         max-width: 200px;
         height: 60px;
     }
 
-    .four{
+    .four {
         display: none;
     }
 
-    .three{
+    .three {
         margin-top: 20px;
         display: flex;
         flex-direction: row;
         display: none;
+    }
+
+    #block-five{
+        padding-left: 15px;
+    }
+
+    #block-five img{
+       display: none;
+    }
+
+    #five div{
+        max-width: 240px;
+    }
+
+    .seven{
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+    }
+
+    .seven input{
+        max-width: 230px;
+    }
+
+    .seven #nine{
+        max-width: 240px;
+    }
+
+    .seven button{
+        margin-top: 20px;
+    }
+
+    #six{
+        max-width: 240px;
     }
 }
